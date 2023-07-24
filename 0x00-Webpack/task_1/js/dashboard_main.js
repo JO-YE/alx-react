@@ -1,6 +1,7 @@
 import $ from "jquery";
 import debounce from "lodash/debounce";
 
+let count = 0; // this is moved outside to ensure that the count is preserved btw the fxn calls
 // Creating html elements
 const p1 = $("<p>").text("Holberton Dashboard");
 const p2 = $("<p>").text("Dashboard data for the students");
@@ -12,7 +13,6 @@ const p4 = $("<p>").text("Copyright - Holberton School");
 $("body").append(p1, p2, button, p3, p4);
 
 function updateCounter() {
-  let count = 0;
   count++;
   $("#count").text(`${count} clicks on the button`); // Setting the content of the paragraph element
 }
