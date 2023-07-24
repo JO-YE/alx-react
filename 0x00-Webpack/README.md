@@ -1,4 +1,5 @@
 # 0x00. Webpack
+![re](https://github.com/JO-YE/alx-react/assets/111038087/23a1ebac-7526-4bac-8343-7f306a5e5445)
 
 ## Resources
 
