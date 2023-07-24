@@ -18,4 +18,4 @@ function updateCounter() {
 }
 
 // Binding the debounce function to the click event on the button
-button.on("click", debounce(updateCounter));
+button.on("click", debounce(updateCounter, 500));
