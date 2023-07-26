@@ -11,9 +11,9 @@ $("body").append("<p id='count'></p>");
 $("body").append("<p>Copyright - Holberton School</p>");
 
 function updateCounter() {
-  $("button").on("click", () => count++);
+  count++;
   $("#count").text(`${count} clicks on the button`); // Setting the content of the paragraph element
 }
 
 // Binding the debounce function to the click event on the button
-_.debounce(updateCounter, 500);
+$("button").on("click", _.debounce(updateCounter, 500));
