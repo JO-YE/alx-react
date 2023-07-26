@@ -1,0 +1,13 @@
+/* Positioning the counter text to the right of the button and make it bold */
+#count {
+  display: inline;
+  font-weight: bold;
+}
+
+/* Adding an element at the top of the document with the id #logo */
+#logo {
+  width: 200px;
+  height: 200px;
+  background: url("../assets/holberton-logo.jpg");
+  background-size: 200px 200px;
+}

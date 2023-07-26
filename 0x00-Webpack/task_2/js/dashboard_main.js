@@ -1,5 +1,6 @@
 import $ from "jquery";
 import _ from "lodash";
+import "../css/main.css";
 
 // Appending the html elements to the page body
 [
