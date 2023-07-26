@@ -1,5 +1,5 @@
 import $ from "jquery";
-import debounce from "lodash/debounce";
+import _ from "lodash";
 
 let count = 0; // this is moved outside to ensure that the count is preserved btw the fxn calls
 
@@ -16,4 +16,4 @@ function updateCounter() {
 }
 
 // Binding the debounce function to the click event on the button
-debounce(updateCounter, 500);
+_.debounce(updateCounter, 500);
