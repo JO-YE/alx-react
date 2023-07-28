@@ -1,6 +1,14 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: "./index.html",
+    }),
+    new CleanWebpackPlugin(),
+  ],
   mode: "production",
   entry: "./js/dashboard_main.js",
   output: {
