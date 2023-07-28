@@ -25,4 +25,9 @@ module.exports = {
       },
     ],
   },
+  mode: "development", // Setting the mode to 'development'
+  devServer: {
+    contentBase: path.resolve(__dirname, "dist"), // Setting the directory to serve content from
+    port: 8564, // Specify the port number (in this case, 8564)
+  },
 };
