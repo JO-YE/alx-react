@@ -9,6 +9,7 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
+  devtool: "inline-source-map",
   mode: "development", // Setting the mode to 'development'
   entry: {
     header: {
@@ -26,7 +27,7 @@ module.exports = {
     shared: "jquery",
   },
   output: {
-    filename: "bundle.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "public"),
   },
   optimization: {
