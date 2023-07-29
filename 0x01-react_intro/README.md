@@ -11,6 +11,7 @@
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 - [What is Babel?](https://babeljs.io/docs/)
 - [Enzyme](https://enzymejs.github.io/enzyme/docs/api/shallow.html)
+- [React](https://www.w3schools.com/react/default.asp)
 
 ## Objectives
 
