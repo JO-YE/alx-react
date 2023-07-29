@@ -7,6 +7,9 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "public"),
   },
+  performance: {
+    maxAssetSize: 1000000,
+  },
   module: {
     rules: [
       {
@@ -20,6 +23,10 @@ module.exports = {
           "file-loader",
           {
             loader: "image-webpack-loader",
+            options: {
+              bypassOnDebug: true, // webpack@1.x
+              disable: true, // webpack@2.x and newer
+            },
           },
         ],
       },
