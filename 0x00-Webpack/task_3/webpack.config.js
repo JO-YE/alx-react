@@ -9,11 +9,38 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
-  mode: "production",
-  entry: "./js/dashboard_main.js",
+  mode: "development", // Setting the mode to 'development'
+  entry: {
+    header: {
+      import: "./modules/header/header.js",
+      dependOn: "shared",
+    },
+    body: {
+      import: "./modules/body/body.js",
+      dependOn: "shared",
+    },
+    footer: {
+      import: "./modules/footer/footer.js",
+      dependOn: "shared",
+    },
+    shared: "jquery",
+  },
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "public"),
+  },
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
+  },
+  devServer: {
+    static: path.join(__dirname, "./public"),
+    open: true,
+    port: 8564,
+  },
+  performance: {
+    maxAssetSize: 1000000,
   },
   module: {
     rules: [
@@ -28,14 +55,13 @@ module.exports = {
           "file-loader",
           {
             loader: "image-webpack-loader",
+            options: {
+              bypassOnDebug: true, // webpack@1.x
+              disable: true, // webpack@2.x and newer
+            },
           },
         ],
       },
     ],
-  },
-  mode: "development", // Setting the mode to 'development'
-  devServer: {
-    contentBase: path.resolve(__dirname, "dist"), // Setting the directory to serve content from
-    port: 8564, // Specify the port number (in this case, 8564)
   },
 };
