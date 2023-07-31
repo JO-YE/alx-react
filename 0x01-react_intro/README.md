@@ -1,6 +1,6 @@
 # 0x01. React intro
-
-**Front-end JavaScript ES6 React**
+**Front-end | JavaScript ES6 | React**
+![recent](https://github.com/JO-YE/alx-react/assets/111038087/80a0e214-223d-4c32-8ee3-16e4209ee463)
 
 ## Resources
 
