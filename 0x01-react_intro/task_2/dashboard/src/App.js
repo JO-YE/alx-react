@@ -6,6 +6,9 @@ import { getFullYear, getFooterCopy } from "./utils";
 function App() {
   return (
     <div className="App">
+      <div className="root-notifications">
+        <Notifications />
+      </div>
       <div className="App-header">
         <img src={Holberton} className="App-logo" alt="logo" />
         <h1>School dashboard</h1>
@@ -17,9 +20,6 @@ function App() {
         <label htmlFor="password"> Password: </label>
         <input type="password" id="password" name="password" />
         <button> OK</button>
-      </div>
-      <div className="root-notifications">
-        <Notifications />
       </div>
       <div class="App-footer">
         <p>

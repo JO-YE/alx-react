@@ -1,6 +1,7 @@
 import React from "react";
 import "./Notifications.css";
 import { getLatestNotification } from "./utils";
+import closeIcon from "./close-icon.png";
 
 export default function Notifications() {
   const handleButtonClick = () => {
@@ -10,11 +11,15 @@ export default function Notifications() {
   return (
     <div class="Notifications">
       <button
-        style="float:right;"
+        style={{ float: "right" }}
         aria-label="Close"
         onClick={handleButtonClick}
       >
-        <img src={CloseIcon} />
+        <img
+          src={closeIcon}
+          alt="closeicon"
+          style={{ width: 20, height: 20 }}
+        />
       </button>
       <p>Here is the list of notifications</p>
       <ul>
