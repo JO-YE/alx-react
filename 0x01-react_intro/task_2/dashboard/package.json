@@ -35,8 +35,6 @@
     ]
   },
   "devDependencies": {
-    "jest": "^27.5.1",
-    "react-scripts": "^5.0.1",
-    "@cfaester/enzyme-adapter-react-18": "^0.7.0"
+    "react-scripts": "^5.0.1"
   }
 }
