@@ -1,0 +1,32 @@
+:root {
+  --color: red;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  color: var(--color);
+  border-bottom: medium solid var(--color);
+}
+
+.App-body {
+  text-align: left;
+  margin: 60px 30px;
+}
+
+.App-footer {
+  border-top: medium solid var(--color);
+  position: fixed;
+  font-style: italic;
+  bottom: 0;
+  width: 100%;
+}
