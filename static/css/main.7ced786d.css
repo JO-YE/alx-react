@@ -1,0 +1,2 @@
+:root{--color:red}.App{text-align:center}.App-logo{height:40vmin;pointer-events:none}.App-header{align-items:center;border-bottom:solid red;border-bottom:solid var(--color);color:red;color:var(--color);display:flex}.App-body{margin:60px 30px;text-align:left}.App-footer{border-top:solid red;border-top:solid var(--color);bottom:0;font-style:italic;position:fixed;width:100%}.Notifications{border:thin dashed var(--color);padding:1rem;text-align:left}li[data-priority=default]{color:#2929a1}li[data-priority=urgent]{color:var(--color)}
+/*# sourceMappingURL=main.7ced786d.css.map*/

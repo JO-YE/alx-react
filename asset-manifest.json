@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alx-react/0x01-react_intro/task_4/dashboard/static/css/main.7ced786d.css",
+    "main.js": "/alx-react/0x01-react_intro/task_4/dashboard/static/js/main.7af7e0f9.js",
+    "static/js/787.545aecf5.chunk.js": "/alx-react/0x01-react_intro/task_4/dashboard/static/js/787.545aecf5.chunk.js",
+    "static/media/Holberton.jpg": "/alx-react/0x01-react_intro/task_4/dashboard/static/media/Holberton.24bab5d633e36ca8d17e.jpg",
+    "index.html": "/alx-react/0x01-react_intro/task_4/dashboard/index.html",
+    "main.7ced786d.css.map": "/alx-react/0x01-react_intro/task_4/dashboard/static/css/main.7ced786d.css.map",
+    "main.7af7e0f9.js.map": "/alx-react/0x01-react_intro/task_4/dashboard/static/js/main.7af7e0f9.js.map",
+    "787.545aecf5.chunk.js.map": "/alx-react/0x01-react_intro/task_4/dashboard/static/js/787.545aecf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ced786d.css",
+    "static/js/main.7af7e0f9.js"
+  ]
+}
