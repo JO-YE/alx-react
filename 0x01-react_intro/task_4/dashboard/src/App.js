@@ -1,14 +1,10 @@
 import Holberton from "./Holberton.jpg";
 import "./App.css";
-import Notifications from "./Notifications.js";
 import { getFullYear, getFooterCopy } from "./utils";
 
 function App() {
   return (
     <div className="App">
-      <div className="root-notifications">
-        <Notifications />
-      </div>
       <div className="App-header">
         <img src={Holberton} className="App-logo" alt="logo" />
         <h1>School dashboard</h1>
