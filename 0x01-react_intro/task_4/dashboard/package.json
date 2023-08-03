@@ -2,6 +2,7 @@
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jo-ye.github.io/alx-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,7 +11,6 @@
     "react-dom": "^18.2.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://JO-YE.github.io/alx-react/0x01-react_intro/task_4/dashboard",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
